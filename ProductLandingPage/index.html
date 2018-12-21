@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Oldenburg|UnifrakturMaguntia" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <div id="left">
+      <img id="header-img" src="http://www.clker.com/cliparts/B/s/4/c/z/t/gold-lion.svg">
+      <h4>Bier<br>Aus<br>Bayern</h4>
+      </div>
+      <div id="right">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#video">Video</a>
+        <a class="nav-link" href="#beer-types">Beer Types</a>
+      </div>
+    </nav>
+  </header>
+  <div id="container">
+    <section id="title">
+      <img id="title-img" src="http://www.clker.com/cliparts/B/s/4/c/z/t/gold-lion.svg"><h1><span class="red-letter">B</span>ier <span class="red-letter">A</span>us <span class="red-letter">B</span>ayern</h1>
+    </section>
+    <section id="get-email">
+      <label for="email"><h2><span id="tradition">Tradition,</span> <span id="craft">craftmanship,</span> <span id="quality">and quality</span></h2></label>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" name="email" type="email" placeholder="Enter your email here" required>
+        <input type="submit" id="submit" value="Ask for beer" class="btn"></input>
+      </form>
+    </section>
+    <section id="features">
+      <div class="icon-adjuster">
+        <i class="fas fa-beer icon"></i>
+        <div>
+          <h3>Time Tested Recipe</h3>
+          <p>We make our beer following carefully the instructions written by medieval monks.</p>
+        </div>
+      </div>
+      <div class="icon-adjuster">
+        <i class="fas fa-spa icon"></i>
+        <div>
+          <h3>Quality Ingredients</h3>
+          <p>Our malt and hops are organic and grown deep in the Black Forest.</p>
+        </div>
+      </div>
+      <div class="icon-adjuster">
+        <i class="fas fa-water icon"></i>
+        <div>
+          <h3>Premium Water</h3>
+          <p>Beer's most disregarded yet relevant ingredient is water. We bring ours directly from the Bavarian Alps, with as little human contact as possible.</p>
+        </div>
+      </div>
+    </section>
+    <section id="video-section">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/YbfSTZaH4wo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>             </iframe>
+    </section>
+    <section id="beer-types">
+      <div class="type-item">
+        <div class="type-title">
+          <h3>Red Lager Barrel</h3>
+        </div>
+        <h4>$120</h4>
+        <p>Ancient Recipe.<br>Refreshing and nutty ale</p>
+        <button class="btn">Select</button>
+      </div>
+      <div class="type-item">
+        <div class="type-title">
+          <h3>Weiss Bier Barrel</h3>
+        </div>
+        <h4>$110</h4>
+        <p>Oktoberfest favorite. <br>Traditional Wheat Beer.</p>
+        <button class="btn">Select</button>
+      </div>
+      <div class="type-item">
+        <div class="type-title">
+          <h3>Dunkel Barrel</h3>
+        </div>
+        <h4>$100</h4>
+        <p>Perfect for winter time.<br>Malty and coffee flavors.</p>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+    <footer id="footer">
+      <div id="signature">
+        <h4>Developed by Cristobal Heiss</h4>
+      </div>
+      <div id="soc-icons">
+        <a href="https://www.github.com/ceheiss" target="_blank" ><i class="fab fa-github soc-icon"></i></a>
+        <a href="https://twitter.com/Cristobalheiss" target="_blank" ><i class="fab fa-twitter-square soc-icon"></i></a>
+        <a href="https://www.codepen.io/ceheiss" target="_blank"><i class="fab fa-codepen soc-icon"></i></a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
